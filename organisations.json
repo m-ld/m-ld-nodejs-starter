@@ -1,0 +1,620 @@
+{
+  "@id": "https://data.virtual-assembly.org/organizations",
+  "@type": [
+    "ldp:Container",
+    "ldp:BasicContainer"
+  ],
+  "ldp:contains": [
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/cheznous_mareuil",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/alain_hays",
+      "pair:label": "ChezNous Mareuil"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/heliotop",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/sybille_saint_girons",
+      "pair:label": "Heliotop"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/aeaam",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/benoit_ferchaud",
+      "pair:label": "AEAAM"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/coglab",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/romain_rouyer",
+      "pair:label": "CogLab"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/fabrique_des_mobilites",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/fabien_gainier",
+      "pair:label": "Fabrique des mobilités"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/valeureux",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/sybille_saint_girons",
+      "pair:label": "Valeureux"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/the_walking_nerds",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/swann_bouvier_muller",
+      "pair:label": "The walking nerds"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/alliance_sens_et_economie",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/pierre_fischer",
+      "pair:label": "Alliance Sens & Economie"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/sciences_citoyennes",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/thomas_germain",
+      "pair:label": "Sciences Citoyennes"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/pacte_pour_la_transition",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/yannick_laignel",
+      "pair:label": "Pacte pour la transition"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/solucracy",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/yannick_laignel",
+      "pair:label": "Solucracy"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/odass",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/gilles_rouby",
+      "pair:label": "ODASS"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/poles_en_pomme",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/frederique_assal",
+      "pair:label": "Pôles en pomme"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/forum_action_modernite",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/philippe_lemoine",
+      "pair:label": "Forum Action Modernité"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/territoires_en_commun",
+      "@type": "pair:Organization",
+      "pair:hasMember": [
+        "https://data.virtual-assembly.org/persons/adrien_desplat",
+        "https://data.virtual-assembly.org/persons/igor_louboff",
+        "https://data.virtual-assembly.org/persons/aline_massy"
+      ],
+      "pair:label": "Territoires en Commun"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/_coop_des_territoires",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/adrien_desplat",
+      "pair:label": "Coop des territoires"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/recma",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/nicole_alix",
+      "pair:label": "RECMA"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/coopaname_-cae",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/dominique_hebert",
+      "pair:label": "Coopaname (CAE)"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/addes",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/nicole_alix",
+      "pair:label": "ADDES"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/tero",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/pierre_johnson",
+      "pair:label": "Tero"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/etalab",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/jean-baptiste_le_devehat",
+      "pair:label": "Etalab"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/colibris_lorient",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/jeremy_dufraisse",
+      "pair:label": "Colibris Lorient"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/animacoop",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/gatien_bataille",
+      "pair:label": "Animacoop"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/colibris",
+      "@type": "pair:Organization",
+      "pair:hasMember": [
+        "https://data.virtual-assembly.org/persons/gabriel_henry",
+        "https://data.virtual-assembly.org/persons/florian_schmitt",
+        "https://data.virtual-assembly.org/persons/sebastien_rosset"
+      ],
+      "pair:label": "Colibris"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/mes",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/bruno_lasnier",
+      "pair:label": "MES"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/faire_ecole_ensemble",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/thomas_germain",
+      "pair:label": "Faire Ecole Ensemble"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/bien_sur_terre",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/sybille_saint_girons",
+      "pair:label": "Bien sur Terre"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/coliving_el_capitan",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/igor_louboff",
+      "pair:label": "Coliving El Capitan"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/la_coalition",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/jean-baptiste_jobard",
+      "pair:label": "La Coalition"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/ecorhizo",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/adrien_solacroup",
+      "pair:label": "EcoRhizo"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/paquerette_-chatons",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/dominique_hebert",
+      "pair:label": "Pâquerette (CHATONS)"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/la_myne1",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/thomas_germain",
+      "pair:label": "La MYNE"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/la_myne",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/emmanuel_laurent",
+      "pair:label": "La Myne"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/villes_et_territoires_en_transition",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/pierre_johnson",
+      "pair:label": "Villes et territoires en transition"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/open_atlas",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/tibor_katelbach",
+      "pair:label": "Open Atlas"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/compagnon_des_archipels",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/lorenzo_favia",
+      "pair:label": "Compagnon des Archipels"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/https-www-elzeard-co",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/fabien.moritz@gmail.com_fabien_moritz",
+      "pair:label": "https://www.elzeard.co/"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/la_fabrique_du_futur",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/benoit_ferchaud",
+      "pair:label": "La Fabrique du Futur"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/conversence",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/marc-antoine_parent",
+      "pair:label": "Conversence"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/collectif_nord-est_essonne_en_transition",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/dominique_hebert",
+      "pair:label": "Collectif Nord-Est Essonne en Transition"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/la_coop_des_communs",
+      "@type": "pair:Organization",
+      "pair:hasMember": [
+        "https://data.virtual-assembly.org/persons/nicole_alix",
+        "https://data.virtual-assembly.org/persons/boris_seguy"
+      ],
+      "pair:label": "La Coop des Communs"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/cospe",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/jason_nardi",
+      "pair:label": "Cospe"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/atd_quart-monde",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/gabriel_henry",
+      "pair:label": "ATD Quart-Monde"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/solidarius",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/jason_nardi",
+      "pair:label": "Solidarius"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/la_bascule",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/mathieu_granger",
+      "pair:label": "La Bascule"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/les_chemins_de_la_transition",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/mathieu_rouyer",
+      "pair:label": "Les Chemins de la Transition"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/global_ecovillage_network",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/sybille_saint_girons",
+      "pair:label": "Global Ecovillage Network"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/open_opale",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/duc_ha_duong",
+      "pair:label": "Open Opale"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/ademe",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/gabriel_plassat",
+      "pair:label": "ADEME"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/yeswiki",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/florian_schmitt",
+      "pair:label": "YesWiki"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/coop_communs",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/michel_bernand-mantel",
+      "pair:label": "Coop des Communs"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/collectif_des_associations_citoyennes",
+      "@type": "pair:Organization",
+      "pair:hasMember": [
+        "https://data.virtual-assembly.org/persons/gilles_rouby",
+        "https://data.virtual-assembly.org/persons/jean-baptiste_jobard"
+      ],
+      "pair:label": "Collectif des Associations Citoyennes"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/coop_des_territoires",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/aline_massy",
+      "pair:label": "Coop des Territoires"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/ries",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/jason_nardi",
+      "pair:label": "RIES"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/fing",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/philippe_lemoine",
+      "pair:label": "FING"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/les_jardiniers_du_nous",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/adrien_cheype",
+      "pair:label": "Les Jardiniers du Nous"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/assemblee_virtuelle",
+      "@type": "pair:Organization",
+      "pair:delivers": "https://data.virtual-assembly.org/events/meetup-interoperabilite",
+      "pair:hasMember": [
+        "https://data.virtual-assembly.org/persons/jeremy_dufraisse",
+        "https://data.virtual-assembly.org/persons/pierre_sarton_du_jonchay",
+        "https://data.virtual-assembly.org/persons/hugo_behar_thinieres",
+        "https://data.virtual-assembly.org/persons/mathieu_rouyer",
+        "https://data.virtual-assembly.org/persons/michel_cadennes",
+        "https://data.virtual-assembly.org/persons/yannick_duthe",
+        "https://data.virtual-assembly.org/persons/pierre_bouvier-muller",
+        "https://data.virtual-assembly.org/persons/michel_bernand-mantel",
+        "https://data.virtual-assembly.org/persons/guillaume-rouyer",
+        "https://data.virtual-assembly.org/persons/simon_louvet",
+        "https://data.virtual-assembly.org/persons/sebastien_rosset",
+        "https://data.virtual-assembly.org/persons/gabriel_henry",
+        "https://data.virtual-assembly.org/persons/thomas_francart"
+      ],
+      "pair:label": "Assemblée Virtuelle"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/picasoft",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/quentin_duchemin",
+      "pair:label": "Picasoft"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/officaire",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/duc_ha_duong",
+      "pair:label": "Officaire"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/la_fabrique_des_mobilites",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/gabriel_plassat",
+      "pair:label": "La Fabrique des Mobilités"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/virtual_assembly",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/benoit_ferchaud",
+      "pair:label": "Virtual Assembly"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/mnemotix",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/freddy_limpens",
+      "pair:label": "Mnemotix"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/utt",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/eddie_soulier",
+      "pair:label": "UTT"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/haut_conseil_a_la_vie_associative",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/nicole_alix",
+      "pair:label": "Haut Conseil à la Vie Associative"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/officience",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/duc_ha_duong",
+      "pair:label": "Officience"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/la_coop_des_territoires",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/igor_louboff",
+      "pair:label": "La Coop des Territoires"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/_dialogue-design",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/benoit_ferchaud",
+      "pair:label": "dialogue.design"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/elzeard",
+      "@type": "pair:Organization",
+      "pair:hasMember": [
+        "https://data.virtual-assembly.org/persons/herve_descombe",
+        "https://data.virtual-assembly.org/persons/florence_amardeilh"
+      ],
+      "pair:label": "Elzeard"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/manufabrick",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/bruno_lasnier",
+      "pair:label": "ManuFabrick"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/happy_dev",
+      "@type": "pair:Organization",
+      "pair:hasMember": [
+        "https://data.virtual-assembly.org/persons/boris_seguy",
+        "https://data.virtual-assembly.org/persons/alice_poggioli",
+        "https://data.virtual-assembly.org/persons/benoit_alessandroni"
+      ],
+      "pair:label": "Happy Dev"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/la_revue_creatique",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/benoit_ferchaud",
+      "pair:label": "La Revue Créatique"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/ens",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/adrien_fabre",
+      "pair:label": "ENS"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/data_players",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/jonathan_caillaud",
+      "pair:label": "Data Players"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/el_capitan",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/aline_massy",
+      "pair:label": "El Capitan"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/logilab",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/nicolas_chauvat",
+      "pair:label": "Logilab"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/reconnexion",
+      "@type": "pair:Organization",
+      "pair:hasMember": [
+        "https://data.virtual-assembly.org/persons/sebastien_rosset",
+        "https://data.virtual-assembly.org/persons/gabriel_henry"
+      ],
+      "pair:label": "Reconnexion"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/startin-blox",
+      "@type": "pair:Organization",
+      "pair:hasMember": [
+        "https://data.virtual-assembly.org/persons/alice_poggioli",
+        "https://data.virtual-assembly.org/persons/benoit_alessandroni"
+      ],
+      "pair:label": "Startin'blox"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/marsnet",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/bruno_lasnier",
+      "pair:label": "Marsnet"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/agir_low-tech",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/guillaume_augais",
+      "pair:label": "Agir Low-Tech"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/awa",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/ancelin_moulherat",
+      "pair:label": "AWA"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/ripess_europe",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/jason_nardi",
+      "pair:label": "Ripess Europe"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/mob-ion",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/mathieu_coste",
+      "pair:label": "Mob-ion"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/la_poste",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/philippe_lemoine",
+      "pair:label": "La poste"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/sparna",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/thomas_francart",
+      "pair:label": "Sparna"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/territoires_zero_chomeurs_longue_duree",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/gabriel_henry",
+      "pair:label": "Territoires Zéro Chômeurs Longue Durée"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/transiscope",
+      "@type": "pair:Organization",
+      "pair:hasMember": [
+        "https://data.virtual-assembly.org/persons/jean-baptiste_jobard",
+        "https://data.virtual-assembly.org/persons/julien_chandelier",
+        "https://data.virtual-assembly.org/persons/lorenzo_favia",
+        "https://data.virtual-assembly.org/persons/ancelin_moulherat"
+      ],
+      "pair:label": "Transiscope"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/yeswiki1",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/gatien_bataille",
+      "pair:label": "Yeswiki"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/wemob",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/mathieu_coste",
+      "pair:label": "WeMob"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/territoires_en_liens",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/pierre_johnson",
+      "pair:label": "Territoires en liens"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/cheznous",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/mathieu_coste",
+      "pair:label": "ChezNous"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/neurotechx_paris",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/romain_rouyer",
+      "pair:label": "NeuroTechX Paris"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/crapauds_fous",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/yannick_laignel",
+      "pair:label": "Crapauds fous"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/babalex",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/bruno_lasnier",
+      "pair:label": "Babalex"
+    },
+    {
+      "@id": "https://data.virtual-assembly.org/organizations/oseons",
+      "@type": "pair:Organization",
+      "pair:hasMember": "https://data.virtual-assembly.org/persons/michel_foata-prestavoine",
+      "pair:label": "OseOns"
+    }
+  ]
+}

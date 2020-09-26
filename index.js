@@ -8,6 +8,7 @@ const { MqttRemotes } = require('@m-ld/m-ld/dist/mqtt');
 const config = {
   '@id': uuid(),
   '@domain': 'test.example.org',
+  '@context': require('./pair-ontology.json')['@context'],
   genesis: true,
   mqtt: { host: 'localhost', port }
 };
@@ -18,9 +19,15 @@ server.listen(port, async () => {
   const meld = await clone(new MemDown, MqttRemotes, config)
   console.log('m-ld status is', meld.status.value)
 
-  meld.follow().subscribe(console.log)
+  //meld.follow().subscribe(console.log)
 
-  await meld.transact({ '@id': 'hw', message: 'Hello World!' })
+  await meld.transact(require('./organisations.json'));
+
+  const addes = await meld.transact({
+    '@describe': 'https://data.virtual-assembly.org/organizations/addes'
+  });
+
+  console.log(addes);
 
   // ...
 })
