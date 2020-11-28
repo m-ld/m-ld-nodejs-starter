@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "@m-ld/m-ld": "^0.4.0-2",
-    "aedes": "^0.42.5",
+    "@m-ld/m-ld": "^0.4.0-3",
+    "aedes": "^0.44.0",
     "memdown": "^5.1.0"
   },
   "devDependencies": {},
