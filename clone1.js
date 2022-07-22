@@ -1,6 +1,6 @@
 const MemDown = require('memdown');
 const { clone, uuid } = require('@m-ld/m-ld');
-const { MqttRemotes } = require('@m-ld/m-ld/dist/mqtt');
+const { MqttRemotes } = require('@m-ld/m-ld/ext/mqtt');
 const config = {
   '@id': uuid(),
   '@domain': 'test.example.org',
