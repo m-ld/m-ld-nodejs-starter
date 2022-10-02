@@ -1,4 +1,4 @@
-const MemDown = require('memdown');
+const { MemoryLevel } = require('memory-level');
 const { clone, uuid } = require('@m-ld/m-ld');
 const { MqttRemotes } = require('@m-ld/m-ld/ext/mqtt');
 const config = {
@@ -9,7 +9,7 @@ const config = {
 };
 
 (async function () {
-  const meld = await clone(new MemDown, MqttRemotes, config)
+  const meld = await clone(new MemoryLevel, MqttRemotes, config)
   meld.status.subscribe(status => console.log('clone 1', 'status is', status))
 
   process.send('started')
