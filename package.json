@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "@m-ld/m-ld": "^0.8.2",
+    "@m-ld/m-ld": "^0.9.0",
     "aedes": "^0.44.0",
-    "memdown": "^6.1.1"
+    "async-mqtt": "^2.6.2",
+    "memory-level": "^1.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
